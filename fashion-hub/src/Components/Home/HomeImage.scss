@@ -1,4 +1,44 @@
-.homeImg{
+.homeImge{
     margin-top: .2rem;
     margin-bottom: 1rem;
+    display: block;
+    margin: auto;
 }
+.divs{
+    display: flex;
+    border: 1px solid red;
+}
+.subdivs{
+    border: 1px solid blue;
+   display: flex;
+   flex-direction: column;
+  
+    width: 40%;
+    height: 500px;
+    margin-left: 150px;
+    background-color: black;
+    
+}
+.subdivs>h1{
+    color:white;
+   
+}
+.subdivs>p{
+    color:white
+}
+.head{
+margin-top: 150px;
+margin-bottom: 20px;
+
+}
+.head1{
+    margin-left: 200px;
+    margin-top: -1px;
+    }
+    .head2{
+        margin: auto;
+        margin-bottom: 220px;
+        width: 30%;
+        padding:7px
+      
+    }

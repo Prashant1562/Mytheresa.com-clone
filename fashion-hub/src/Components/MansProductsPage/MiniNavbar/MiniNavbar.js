@@ -9,10 +9,10 @@ const MiniNavbar = () => {
   return (
     <div className="miniNav">
       <p>
-       <Link to="/" style={{textDecoration:"none"}} ><b>Home</b></Link> / <b>Women's Fashion Store</b>
+       <Link to="/" style={{textDecoration:"none"}} ><b>Home</b></Link> / <b>Men's Fashion Store</b>
       </p>
       <p className="womenStore">
-        Women's Fashion Store <span className="items">- 626950 items</span>
+        Men's Fashion Store <span className="items">- 626950 items</span>
       </p>
 
       <div className="filter">

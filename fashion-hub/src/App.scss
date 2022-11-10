@@ -10,25 +10,35 @@
       box-sizing: border-box;
   }
   
-  .searchInput {
-    background-color: rgba(241, 239, 239, 0.568);
-    border-radius: 10px;
-    // padding: -15px;
+  .header {
+    height: 70%;
   }
-  
+  .searchInput {
+    background-color:none;
+    width: 5%;
+    padding: 5%;
+    margin-bottom: -70px;
+    &:hover {
+      color: rgb(184, 34, 8);
+      border-bottom: 1px solid rgb(184, 34, 8);
+     
+  }
+}
   .header--navbar {
     text-decoration: none;
     .header--navbar--nav {
-      color: black;
+      color: gray;
       font-weight: bold;
+      margin-top: -90px;
       &:hover {
         color: rgb(184, 34, 8);
-        border-bottom: 3px solid rgb(184, 34, 8);
+        border: 1px solid red;
       }
     }
   }
-  
+   
   .app--Lists{
-    width: 30%;
+    width: 40%; 
+    margin-top: -90px; 
   }
   

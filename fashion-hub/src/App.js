@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
- import "./App.scss";
+import "./App.scss";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -91,16 +91,13 @@ function App() {
                 aria-label="menu"
                 sx={{ mr: 2 }}
               ></IconButton>
-              <Link to="/">
-                {" "}
-                <img src={Logo} alt="" width="40" />
-              </Link>
+              
               {/* Navbar starts */}
               <Box sx={{ width: "100%", pl: 5 }}>
                 <Link to="/man" className="header--navbar">
                   <Tab
                     value="one"
-                    label="Man"
+                    label="Men"
                     className="header--navbar--nav"
                   />
                 </Link>
@@ -140,9 +137,15 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
+                
               </Box>
+              <br />
+              <br />
               {/* Navbar ends */}
-
+              <Link to="/">
+                {" "}
+                <img src={Logo} alt="" width="250" />
+              </Link>
               {/* SearchBar Starts */}
               <Box sx={{ flexGrow: 1 }} className="searchInput">
                 <Search>
@@ -186,7 +189,7 @@ function App() {
         </Box>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/man" element={<MansProductsPage />} /> */}
+          <Route path="/man" element={<MansProductsPage />} />
           {/* <Route path="/women" element={<WomensProductsPage />} />
           <Route path="/kids" element={<KidsProductsPage />} />
           <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />

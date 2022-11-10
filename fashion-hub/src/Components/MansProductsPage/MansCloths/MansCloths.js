@@ -20,7 +20,7 @@ const MansCloths = () => {
         {CardsObj.map((obj) => {
           return (
             <>
-              <Grid item xs={3}>
+              <Grid item xs={4}>
                 <Item>
                   <SingleCard multi={obj} />{" "}
                 </Item>

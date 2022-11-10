@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeImage.scss";
-import homeImg1 from "../Images/home Img1.png";
 import homeImg4 from "../Images/offer.png";
 import homeImg5 from "../Images/home img5.png";
 import homeImg6 from "../Images/home Img6.png";
@@ -12,15 +11,23 @@ import ProductsInBudget from "./ProductsInBudget";
 const HomeImage = () => {
   return (
     <div>
-          <img src={homeImg1} alt="Main Img" title="Home page img" width="100%" height="400px" className="homeImg" />
+      <br />
+          <img src="https://img.mytheresa.com/media/static/raw/cms/l/Gate_page_upload_September_2022/Gatepage_Sep22_DSK_2x_20220908102600.jpg?imwidth=1180&imdensity=1
+" alt="Main Img" title="Home page img" width="80%" height="500px" className="homeImge" />
+      
+        <br />
+        <br />
+       
         <div>
-          <img src={homeImg4} alt="Main Img" title="Home page img" width="100%" className="homeImg" />
+          <img src= "https://img.mytheresa.com/media/static/raw/cms/l/Gate_page_upload_September_2022/Gatepage_Sep22_KIDS_DSK_2x_20220908102616.jpg?imwidth=1180&imdensity=1" alt="Main Img" width="80%" height="500px" className="homeImge" />
         </div>
+
+        <br />
+        <br />
+
         <div>
-          <img src={homeImg5} alt="Main Img" title="Home page img" width="100%" className="homeImg" />
-        </div>
-        <div>
-          <img src={homeImg6} alt="Main Img" title="Home page img" width="100%" className="homeImg" />
+          <img src=
+ "https://img.mytheresa.com/media/static/raw/cms/l/Gate_page_upload_September_2022/Gatepage_Sep22_LIFE_DSK_2x_20220908102608.jpg?imwidth=1180&imdensity=1" alt="Main Img" title="Home page img" width="80%" height="500px" className="homeImge" />
         </div>
 
         <ProductsBestDeal />
