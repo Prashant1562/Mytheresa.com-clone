@@ -12,7 +12,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/8b/P00701249.jpg",
     typography: "DRKSHDW BY RICK OWENS",
     Price: "RS : 999.00",
-    rating: "(432)",
+    rating: "Gooseberry cotton and silk",
     id: 2,
   },
 
@@ -20,6 +20,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/0a/P00692598.jpg",
     typography: "THE ELDER STATESMAN",
     Price: "€ 1,235",
+    rating: "Gooseberry cotton and silk",
   
     id: 3,
   },
@@ -28,6 +29,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/9a/P00691981.jpg",
     typography: "AMIRI",
     Price: "€ 1,055",
+    rating: "Gooseberry cotton and silk",
     id: 4,
   },
 
@@ -35,12 +37,14 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/ca/P00701398.jpg",
     typography: "GUCCI",
     Price: "€ 2,609",
+    rating: "Gooseberry cotton and silk",
     id: 5,
   },
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/45/P00737361.jpg",
     typography: "AMIRI",
     Price: "€ 895",
+    rating: "Gooseberry cotton and silk",
     id: 6,
   },
 
@@ -48,6 +52,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/10/P00691924.jpg",
     typography: "DOLCE&GABBANA",
     Price: "€ 585",
+    rating: "Gooseberry cotton and silk",
     id: 7,
   },
 
@@ -55,12 +60,14 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/e1/P00667247.jpg",
     typography: "ERL",
     Price: "€ 439",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/16/P00705579.jpg",
     typography: "RANRA",
     Price: "€ 365",
+    rating: "Gooseberry cotton and silk",
     id: 2,
   },
 
@@ -68,6 +75,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/94/P00688257.jpg",
     typography: "ACNE STUDIOS",
     Price: "€ 229",
+    rating: "Gooseberry cotton and silk",
     id: 3,
   },
 
@@ -75,6 +83,7 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/dc/P00701776.jpg",
     typography: "AURALEE",
     Price: "€ 1,099",
+    rating: "Gooseberry cotton and silk",
     id: 4,
   },
 
@@ -82,78 +91,91 @@ const CardsObj = [
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/3c/P00694199.jpg",
     typography: "GUCCI",
     Price: "€ 1,219",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4d/P00708872.jpg",
     typography: "INCOTEX X FACETASM",
     Price: "€ 585",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ca/P00737497.jpg",
     typography: "THE ELDER STATESMAN",
     Price: "€ 1,049",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/33/P00737476.jpg",
     typography: "GIVENCHY",
     Price: "€ 1,055",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d5/P00737354.jpg",
     typography: "INCOTEX X FACETASM",
     Price: "€ 429",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/46/P00737511.jpg",
     typography: "GUCCI",
     Price: "€ 969",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/dd/P00734008.jpg",
     typography: "GABRIELA HEARST",
     Price: "€ 1,169",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d6/P00636105.jpg",
     typography: "THOM BROWNE",
     Price: "€ 1,035",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/bf/P00734013.jpg",
     typography: "GABRIELA HEARST",
     Price: "€ 969",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/06/P00431831.jpg",
     typography: "THOM BROWNE",
     Price: "€ 449",
+    rating: "Gooseberry cotton and silk",
   },
 
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/51/P00501843.jpg",
     typography: "THOM BROWNE",
     Price: "€ 819",
+    rating: "Gooseberry cotton and silk",
     
   },
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/cf/P00734020.jpg",
     typography: "GABRIELA HEARST",
     Price: "€ 395",
+    rating: "Gooseberry cotton and silk",
    
   },
   {
     imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e6/P00701224.jpg",
     typography: "MARNI",
     Price: "€ 595",
+    rating: "Gooseberry cotton and silk",
     
   },
 ];

@@ -190,11 +190,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/man" element={<MansProductsPage />} />
-          {/* <Route path="/women" element={<WomensProductsPage />} />
-          <Route path="/kids" element={<KidsProductsPage />} />
-          <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
-          <Route path="/beauty" element={<BeautyProductsPage />} />
-          <Route path="/singlepage" element={<SingleProduct />} /> */}
+            <Route path="/women" element={<WomensProductsPage />} /> 
+         {/* // <Route path="/kids" element={<KidsProductsPage />} />
+          // <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
+          // <Route path="/beauty" element={<BeautyProductsPage />} />
+          // <Route path="/singlepage" element={<SingleProduct />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
