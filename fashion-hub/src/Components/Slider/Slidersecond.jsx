@@ -1,12 +1,14 @@
+
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { dataDigitalBestSeller } from './SliderthirdData';
+import { dataDigitalBestSeller } from './SlidersecondData';
+// import imgGirl from './assets/images/defaultImage.jpg';
 import "./Sliderfirst.css"
 
-const ProductsDeals = () => {
-  const [defaultImage, setDefaultImage] = useState({});
+const Slidersecond = () => {
+    const [defaultImage, setDefaultImage] = useState({});
   const settings = {
     dots: true,
     infinite: false,
@@ -53,7 +55,7 @@ const ProductsDeals = () => {
 
 return (
     <div className="Sliderfirst">
-        <h1 style={{marginTop:"50px"}}><i >Kids's New Arrivals</i></h1>
+        <h1 style={{marginTop:"50px"}}><i >Men's New Arrivals</i></h1>
         <br />
         <p style={{fontSize:"25px",marginTop:"-15px",marginBottom:"-30px"}}></p>
       
@@ -81,10 +83,10 @@ return (
 
       </Slider>
       <br/>
-       <a style={{display:"block", margin:"auto", width:"100px", borderRadius:"10px", padding:"3px", backgroundColor:"black", color:"lightGray", textDecoration:"none", textAlign:"center"}} href="kids">VIEW ALL</a>
+       <a style={{display:"block", margin:"auto", width:"100px", borderRadius:"10px", padding:"3px", backgroundColor:"black", color:"lightGray", textDecoration:"none", textAlign:"center"}} href="man">VIEW ALL</a>
        
     </div>
   );
 }
 
-export default ProductsDeals;
+export default Slidersecond;

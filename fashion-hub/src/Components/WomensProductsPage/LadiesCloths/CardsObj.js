@@ -1,137 +1,158 @@
 const CardsObj = [
   {
-    imageURL: process.env.PUBLIC_URL + "./Images/dress5.png",
-    typography: "Angrakha kurti",
-    Price: "RS : 1500.00",
-    realPrice: "₹5000.00",
-    rating: "(576)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/19/P00731299.jpg",
+    typography: "VALENTINO",
+    rating: "Gooseberry cotton and silk",
+    Price: "€ 685",
     id: 1,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress11.png",
-    typography: "Printed kurti",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/39/P00750056.jpg",
+    typography: "BOTTEGA VENETA",
     Price: "RS : 999.00",
-    realPrice: "₹1500.00",
-    rating: "(432)",
     id: 2,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
-    Price: "RS : 549.00",
-    realPrice: "₹3999.00",
-    rating: "(752)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/fe/P00730078.jpg",
+    typography: "SACAI",
+    Price: "€ 1,235",
+  
     id: 3,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress9.png",
-    typography: "Flard kurti",
-    Price: "RS : 745.00",
-    realPrice: "₹1000.00",
-    rating: "(632)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/11/P00709610.jpg",
+    typography: "SAINT LAURENT",
+    Price: "€ 1,055",
     id: 4,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
-    Price: "RS : 549.00",
-    realPrice: "₹3999.00",
-    rating: "(752)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/22/P00742790.jpg",
+    typography: "GUCCI",
+    Price: "€ 2,609",
     id: 5,
   },
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress13.png",
-    typography: "Angrakha Top",
-    Price: "RS : 1500.00",
-    realPrice: "₹5000.00",
-    rating: "(576)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/65/P00684033.jpg",
+    typography: "BOTTEGA VENETAI",
+    Price: "€ 895",
     id: 6,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress1.png",
-    typography: "White Top",
-    Price: "RS : 599.00",
-    realPrice: "₹1490.00",
-    rating: "(42)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d7/P00697654.jpg",
+    typography: "ACNE STUDIOS",
+    Price: "€ 585",
     id: 7,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress10.png",
-    typography: "Flard lignt blue Top",
-    Price: "RS : 755.00",
-    realPrice: "₹2050.00",
-    rating: "(132)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b6/P00701109.jpg",
+    typography: "BALMAIN",
+    Price: "€ 439",
   },
+
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress11.png",
-    typography: "Printed kurti",
-    Price: "RS : 999.00",
-    realPrice: "₹1500.00",
-    rating: "(432)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/56/P00696808.jpg",
+    typography: "VALENTINO GARAVANI",
+    Price: "€ 365",
     id: 2,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
-    Price: "RS : 549.00",
-    realPrice: "₹3999.00",
-    rating: "(752)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/66/P00704065.jpg",
+    typography: "ISABEL MARANT",
+    Price: "€ 229",
     id: 3,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress9.png",
-    typography: "Flard kurti",
-    Price: "RS : 745.00",
-    realPrice: "₹1000.00",
-    rating: "(632)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/420/475/95/jpeg/catalog/product/dc/P00701776.jpg",
+    typography: "AURALEE",
+    Price: "€ 1,099",
     id: 4,
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress8.png",
-    typography: "Black Top",
-    Price: "RS : 1559.00",
-    realPrice: "₹3999.00",
-    rating: "(1272)",
-  },
-  {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress14.png",
-    typography: "plain dark kurti",
-    Price: "RS : 389.00",
-    realPrice: "₹2000.00",
-    rating: "(599)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/6b/P00708438.jpg",
+    typography: "ALANUI",
+    Price: "€ 1,219",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress15.png",
-    typography: "Black printed kurti",
-    Price: "RS : 949.00",
-    realPrice: "₹2999.00",
-    rating: "(1152)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/51/P00697375.jpg",
+    typography: "ISABEL MARANT, ÉTOILE",
+    Price: "€ 585",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress7.png",
-    typography: "Printed kurti",
-    Price: "RS : 745.00",
-    realPrice: "₹1500.00",
-    rating: "(62)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/54/P00724863.jpg",
+    typography: "ALESSANDRA RICH",
+    Price: "€ 1,049",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress2.png",
-    typography: "Printed dress",
-    Price: "RS : 879.00",
-    realPrice: "₹6500.00",
-    rating: "(43)",
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c8/P00698573.jpg",
+    typography: "ALAÏA",
+    Price: "€ 1,055",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/bf/P00718278.jpg",
+    typography: "SELF-PORTRAIT",
+    Price: "€ 429",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/9b/P00703890.jpg",
+    typography: "KHAITE",
+    Price: "€ 969",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/fb/P00700990.jpg",
+    typography: "GABRIELA HEARST",
+    Price: "€ 1,169",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d6/P00636105.jpg",
+    typography: "BALMAIN",
+    Price: "€ 1,035",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/56/P00696424.jpg",
+    typography: "VALENTINO GARAVANI",
+    Price: "€ 969",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/6c/P00680615.jpg",
+    typography: "VALENTINO GARAVANI",
+    Price: "€ 449",
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/63/P00701514.jpg",
+    typography: "BALENCIAGA",
+    Price: "€ 819",
+    
+  },
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/5b/P00698025.jpg",
+    typography: "LOEWE",
+    Price: "€ 395",
+   
+  },
+  {
+    imageURL: process.env.PUBLIC_URL + "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4b/P00634496.jpg",
+    typography: "MARNI",
+    Price: "€ 595",
+    
   },
 ];
 

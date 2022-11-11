@@ -20,7 +20,6 @@
     margin-bottom: -70px;
     &:hover {
       color: rgb(184, 34, 8);
-      border-bottom: 1px solid rgb(184, 34, 8);
      
   }
 }
@@ -32,13 +31,39 @@
       margin-top: -90px;
       &:hover {
         color: rgb(184, 34, 8);
-        border: 1px solid red;
+        border-bottom: rgb(184, 34, 8);
       }
     }
   }
    
   .app--Lists{
-    width: 40%; 
-    margin-top: -90px; 
+    width: 50%; 
+    margin-top: -80px; 
   }
-  
+  .logout{
+     width: 50%;
+     margin: auto;
+     margin-top: 30px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+    &:hover {
+      color: rgb(7, 5, 9);
+    }
+  }
+
+  .login {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    font-size: large;
+    background-color: rgb(66, 194, 23);
+    text-align: center;
+    border-radius: 10px;
+    &:hover {
+      color: rgb(7, 5, 9);
+    }
+  }

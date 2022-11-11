@@ -1,5 +1,5 @@
 import * as React from 'react';
- import "./pagination.scss"
+import "./pagination.scss"
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 

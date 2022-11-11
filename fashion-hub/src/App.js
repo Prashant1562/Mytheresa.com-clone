@@ -7,13 +7,14 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Logo from "./Components/Images/Logo.png";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
+import { useAuth0 } from "@auth0/auth0-react";
+
 import {
   Footer,
   Home,
@@ -69,6 +70,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 function App() {
   const [value, setValue] = useState(0);
+  const { loginWithRedirect,logout,isAuthenticated  } = useAuth0();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -158,20 +160,32 @@ function App() {
                   />
                 </Search>
               </Box>
+
+              
+            
+              
               {/* SearchBar Ends */}
 
               {/* Notification Starts */}
+        
               <Tabs
                 value={value}
                 onChange={handleChange}
                 aria-label="icon label tabs example"
                 className="app--Lists"
               >
-                <Tab
+                  {
+                isAuthenticated ? <button className="logout" onClick={() => logout({ returnTo: window.location.origin })}>
+                LOG OUT
+              </button> : <button className="login" onClick={() => loginWithRedirect()}>LOG IN</button>
+              }    
+
+                {/* <Tab
+             
                   icon={<PersonOutlineOutlinedIcon />}
                   label="Profile"
                   size="small"
-                />
+                /> */}
                 <Tab
                   icon={<FavoriteBorderIcon />}
                   label="Wishlist"
@@ -190,10 +204,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/man" element={<MansProductsPage />} />
-          {/* <Route path="/women" element={<WomensProductsPage />} />
+          <Route path="/women" element={<WomensProductsPage />} />
           <Route path="/kids" element={<KidsProductsPage />} />
-          <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
-          <Route path="/beauty" element={<BeautyProductsPage />} />
+           <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
+         {/* <Route path="/beauty" element={<BeautyProductsPage />} />
           <Route path="/singlepage" element={<SingleProduct />} /> */}
         </Routes>
         <Footer />
