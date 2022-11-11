@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .header {
+    height: 70%;
+  }
+  .searchInput {
+    background-color:none;
+    width: 5%;
+    padding: 5%;
+    margin-bottom: -70px;
+    &:hover {
+      color: rgb(184, 34, 8);
+      border-bottom: 1px solid rgb(184, 34, 8);
+     
+  }
+}
+  .header--navbar {
+    text-decoration: none;
+    .header--navbar--nav {
+      color: gray;
+      font-weight: bold;
+      margin-top: -90px;
+      &:hover {
+        color: rgb(184, 34, 8);
+        border: 1px solid red;
+      }
+    }
+  }
+   
+  .app--Lists{
+    width: 40%; 
+    margin-top: -90px; 
+  }
+  

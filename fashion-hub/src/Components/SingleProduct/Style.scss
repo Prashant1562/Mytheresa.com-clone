@@ -1,0 +1,28 @@
+.products{
+    display: flex;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid gray;
+    .leftCon{
+        width: 55%;
+
+    }
+    .rightCon{
+        width: 50%;
+        margin-right: 15px;
+        margin-left: 2%;
+    }
+}
+
+.review{
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    border: 1px solid gray;
+    .leftCon{
+        width: 60%;
+        margin-right: 30px;
+    }
+    .rightCon{
+        width: 50%;
+    }
+}
