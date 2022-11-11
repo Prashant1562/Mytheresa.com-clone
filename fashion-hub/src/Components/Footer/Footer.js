@@ -49,7 +49,7 @@ At Mytheresa we know that stylish men love fashion too and as a result, our prof
           <p>Site Map</p>
         </div>
         <div className="footer--row">
-          <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+          <h3>EXPERIENCE MYTHERESA APP ON MOBILE</h3>
           <div className="app">
             <img
               src={GoogleApp}

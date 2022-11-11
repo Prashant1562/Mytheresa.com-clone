@@ -1,118 +1,92 @@
-import React from "react";
- import "./Products.scss";
-import Box from "@mui/material/Box";
-import roundImg1 from "../Images/r1.png";
-import roundImg2 from "../Images/r2.png";
-import roundImg3 from "../Images/r3.png";
-import roundImg4 from "../Images/r4.png";
-import roundImg5 from "../Images/r5.png";
-import roundImg6 from "../Images/r6.png";
-import roundImg7 from "../Images/r7.png";
-import roundImg8 from "../Images/r8.png";
-import roundImg9 from "../Images/r9.png";
-import roundImg10 from "../Images/r10.png";
-import roundImg11 from "../Images/r11.png";
-import roundImg12 from "../Images/r12.png";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { dataDigitalBestSeller } from './SliderfourthData';
+// import imgGirl from './assets/images/defaultImage.jpg';
+import "./Sliderfirst.css"
 
 const ProductCategories = () => {
-  return (
-    <div>
-      <h2 className="productDeal">CATEGORIES TO BAG</h2>
-      <div className="products">
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg1} alt="" className="productImg1" width="240" />
-          </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg7}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-            />
-          </div>
-        </Box>
+  const [defaultImage, setDefaultImage] = useState({});
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg2} alt="" className="productImg1" width="240" />
-          </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg8}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-            />
-          </div>
-        </Box>
+  const handleErrorImage = (data) => {
+    setDefaultImage((prev) => ({
+      ...prev,
+      [data.target.alt]: data.target.alt,
+      
+    }));
+  };
+//   linkDefault: imgGirl,
 
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg3} alt="" className="productImg1" width="240" />
+return (
+    <div className="Sliderfirst">
+        <h1 style={{marginTop:"50px"}}><i >Life's New Arrivals</i></h1>
+        <br />
+        <p style={{fontSize:"25px",marginTop:"-15px",marginBottom:"-30px"}}></p>
+      
+      <Slider {...settings}>
+        {dataDigitalBestSeller.map((item) => (
+          <div  className="card">
+            <div  className="card-top">
+              <img
+                src={
+                  defaultImage[item.title] === item.title
+                    ? defaultImage.linkDefault
+                    : item.linkImg
+                }
+                alt={item.title}
+                onError={handleErrorImage}
+              />
+              <h1>{item.title}</h1>
+            </div>
+            <div className="card-bottom">
+              <h3>{item.price}</h3>
+              <span className="category">{item.category}</span>
+            </div>
           </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg9}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-            />
-          </div>
-        </Box>
+        ))}
 
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg4} alt="" className="productImg1" width="240" />
-          </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg10}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-            />
-          </div>
-        </Box>
-
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg5} alt="" className="productImg1" width="240" />
-          </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg11}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-              height="293"
-            />
-          </div>
-        </Box>
-
-        <Box className="boxImg">
-          <div>
-            <img src={roundImg6} alt="" className="productImg1" width="240" />
-          </div>
-          <div id="boxImg--2ndImg">
-            <img
-              src={roundImg12}
-              alt=""
-              className="productImg1 "
-              id="boxImg--2ndImg"
-              width="240"
-              height="298"
-            />
-          </div>
-        </Box>
-      </div>
+      </Slider>
+      <br/>
+       <a style={{display:"block", margin:"auto", width:"100px", borderRadius:"10px", padding:"3px", backgroundColor:"black", color:"lightGray", textDecoration:"none", textAlign:"center"}} href="homeandliving">VIEW ALL</a>
+       
     </div>
   );
-};
+}
+
 
 export default ProductCategories;
