@@ -22,7 +22,6 @@ import {
   MansProductsPage,
   KidsProductsPage,
   HomeAndLivinProductsPage,
-  BeautyProductsPage,
   SingleProduct,
 } from "./Components";
 
@@ -125,13 +124,7 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
-                <Link to="/beauty" className="header--navbar">
-                  <Tab
-                    value="beauty"
-                    label="Beauty"
-                    className="header--navbar--nav"
-                  />
-                </Link>
+          
                 <Link to="/singlepage" className="header--navbar">
                   <Tab
                     value="singlepage"
@@ -207,8 +200,7 @@ function App() {
           <Route path="/women" element={<WomensProductsPage />} />
           <Route path="/kids" element={<KidsProductsPage />} />
            <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
-         {/* <Route path="/beauty" element={<BeautyProductsPage />} />
-          <Route path="/singlepage" element={<SingleProduct />} /> */}
+          <Route path="/singlepage" element={<SingleProduct />} />
         </Routes>
         <Footer />
       </BrowserRouter>

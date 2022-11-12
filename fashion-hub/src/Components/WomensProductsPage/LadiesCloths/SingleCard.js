@@ -8,6 +8,7 @@ import Container from "@mui/material/Container";
 const SingleCard = ({ multi }) => {
   return (
     <>
+    
       <div className="singleCard">
         <Container>
         <CardMedia
@@ -65,7 +66,9 @@ const SingleCard = ({ multi }) => {
         </CardActions>
         </Container>
       </div>
+
     </>
+
   );
 };
 

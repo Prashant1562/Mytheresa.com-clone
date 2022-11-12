@@ -16,11 +16,7 @@ const ProductOfferTable = () => {
         </TableRow>
         <TableRow>
           <TableCell><span  style={{color:"red", fontWeight:"bold", fontSize: "16px"}}><CelebrationIcon />
-              Cashback:</span> 10% back up to ₹100 on using Amazon Pay UPI to pay for
-            your shopping transaction. Valid once per
-            customer during the offer period, applicable only on the Amazon app.
-            DetailsCashback: 10% back up to ₹100 on using Amazon Pay UPI to pay
-            for your shopping transaction. No minimum order value.
+              style details:</span> Inspired by the Taj Mahal, Tom Dixon's Stone collection makes use of solid marble in a series of household accessories. The Stone serving board is a heavy and tactile slab cut from a single piece of marble that's simultaneously suited to both preparing and serving food.
           </TableCell>
         </TableRow>
         <TableRow>
