@@ -1,22 +1,17 @@
 import React from "react";
  import "./SingleProductPage.scss";
-import Button from "@mui/material/Button";
-import ButtonGroup from "@mui/material/ButtonGroup";
 import Box from "@mui/material/Box";
-import StarIcon from "@mui/icons-material/Star";
 
 function SingleProductPage2() {
   return (
     <>
-      <Button href="#Choli" color="primary">
-        Brand: Anara
-      </Button>
-      <h1>Lehenga Choli</h1>
+    <h1>Lehenga Choli</h1>
+    <br />
       <p>
-        Anara Women's Net Semi-Stitched Lehenga Choli. Embroidered || Duptta
-        Work : Embroidered & Sequence Work|| Stitched Type : Lehenga Full
-        Stitched and Zip Attach.{" "}
+      VAT exception. VAT not included.
+      item no. P00746854.{" "}
       </p>
+      <br />
       <div>
         <Box
           sx={{
@@ -27,13 +22,7 @@ function SingleProductPage2() {
             },
           }}
         >
-          <ButtonGroup variant="outlined" aria-label="outlined button group">
-            <Button>
-              4.2
-              <StarIcon />
-            </Button>
-            <Button>1.2k Ratings</Button>
-          </ButtonGroup>
+      
         </Box>
         <hr />
       </div>
